@@ -17,8 +17,8 @@
 (defun set-font (font)
   "Set fonts to Source Code Pro"
   (interactive "p")
-  (set-face-attribute 'default nil :font "Inconsolata" :height 120))
-
-(set-font t)
+  (set-face-attribute 'default nil :font "Inconsolata" :height 140))
 
 (setq prelude-guru nil)
+
+(prelude-require-packages '(emamux))
